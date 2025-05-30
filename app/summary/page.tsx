@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 import { CiCircleCheck } from "react-icons/ci";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import BottomNav from "../components/BottomNav";
 
 export default function page() {
       const router = useRouter();
@@ -62,6 +63,7 @@ export default function page() {
           </div>
         </div>
       </div>
+       <BottomNav />
     </div>
   );
 }
