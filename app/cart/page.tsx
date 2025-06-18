@@ -31,7 +31,7 @@ export default function Page() {
   return (
     <div className="bg-gray-100 min-h-full">
       <div className="p-6">
-        <div onClick={() => router.back()} className="text-gray-700 text-4xl">
+        <div onClick={() => router.back()} className="text-gray-700 text-4xl cursor-pointer">
           <IoIosArrowRoundBack />
         </div>
 
